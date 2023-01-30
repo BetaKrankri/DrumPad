@@ -1,0 +1,51 @@
+.PadBoard {
+    border: solid 1px #757575;
+    padding: 7px 5px;
+    width: 200px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+
+}
+
+.drum-pad {
+    height: 60px;
+    width: 60px;
+    
+    flex: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #707070;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px black;
+    font-family: 'Audiowide';
+}
+
+.drum-pad:active, .drum-pad.active {
+    background-color: orange;
+    color: white;
+    box-shadow: 2px 2px 3px white;
+    transform: translateY(2px);
+    transition: ease-out all .1s;
+}
+
+@media only screen and (min-width: 576px) {
+    .drum-pad{
+        height: 80px;
+        width: 90px;
+        font-size: larger;
+    }
+
+    .PadBoard {
+        width: 300px;
+        gap: 8px;
+    }
+}
+

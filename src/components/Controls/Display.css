@@ -1,0 +1,28 @@
+/* ******Display */
+.display {
+    width: 150px;
+    height: 35px;
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+    margin: 5px;
+    background-color: #808080
+}
+
+h6 {
+    margin: 0;
+}
+
+.blink {
+    border: solid 2px orange;
+    transition: all ease-in .3s;
+}
+
+@media only screen and (min-width: 576px) {
+    .display {
+        width: 180px;
+        height: 45px;
+    }
+}
