@@ -2,7 +2,7 @@
     box-sizing: border-box;
     background-color: #555;
     border: solid 5px orange;
-    margin: auto auto;
+    margin: 0 auto;
     width: 70%;
     max-width: 700px;
     padding: 25px;

@@ -11,6 +11,7 @@ function App() {
   return (
     <div className="App" style={{
       display: 'flex',
+      flexFlow: 'column',
       justifyContent: 'center',
       alignItems: 'center',
       height: '100vh'
@@ -20,6 +21,7 @@ function App() {
         <PadBoard />
         <Controls />
       </DrumMachine>
+      <span>by <a href='https://github.com/BetaKrankri/DrumPad' style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }}>BetaKrankri</a></span>
     </div>
   );
 }
